@@ -84,16 +84,31 @@
     height:280px;
     width:480px;
     background-color:white;
-    background-image:url("ocean.jpeg");
-    background-size:cover;
+    margin-top:40px;
     margin-left:auto;
     margin-right:auto;
     border-radius:10px;
+    position:relative;
+}
+#basic_box1{
+    background-image:url("ocean.jpeg");
+    background-size:cover;
+}
+#basic_box2{
+    background-image:url("mtn.jpeg");
+    background-size:cover;
 }
 .bottom_box{
-    height:80px;
-    
+    top:200px;
+    width:100%;
     background-color:linen;
     opacity:.85;
+    height:80px;
     overflow:hidden;
+    position: absolute;
+}
+.centerP{
+    text-align: center;
+    padding-top:1px;
+    font-size:22px;
 }
